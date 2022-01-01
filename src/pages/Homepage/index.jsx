@@ -20,7 +20,7 @@ export const Homepage = () => {
   </div>
    {/* Header end  */}
   <div className="pt-16 ">
-  <div  className="bg-[url('amazonimage.jpg')] lg:w-full sm:w-full h-[33rem] pt-20 ">
+  <div  className="lg:bg-[url('amazonimage.jpg')] lg:w-full  h-[33rem] pt-20 sm:bg-[url('amazonimage.jpg')] sm:w-full sm:pr-10">
     <div className="ml-10 pt-20 pl-12">
           <h1 className="text-white text-4xl t ">Welcome to Prime Video</h1>
           <p className="text-white pt-8 text-xl font-extralight" >Join Prime to watch the latest movies, TV shows and <br/>award-winning Amazon Originals</p>
@@ -42,22 +42,22 @@ export const Homepage = () => {
   </div>
   </div>
   {/* cards  */}
-  <div className="mr-20 sm:items-center">
-  <div className="flex mt-4 ml-4 flex-col lg:flex-row ">
-    <div className="mr-2"><img src="images/cardimage.jpg" alt="card" className="h-32 w-48"/> </div>
-    <div className="mr-2"><img src="images/discoverycard.jpg" alt="card" className="h-32 w-48"/> </div>
-    <div> <img src="images/erosnowcard.jpg" alt="card" className="h-32 w-48"/></div>  
+  <div className="mr-20 sm:ml-10">
+  <div className="flex mt-4 ml-4 flex-col lg:flex-row sm:items-center">
+    <div className="mr-2 lg:mt-2"><img src="images/cardimage.jpg" alt="card" className="lg:h-32 lg:w-48 sm:h-64 sm:w-96" /> </div>
+    <div className="mr-2  sm:mt-2"><img src="images/discoverycard.jpg" alt="card" className="lg:h-32 lg:w-48 sm:h-64 sm:w-96"/> </div>
+    <div className="sm:mt-2 sm:mr-2"> <img src="images/erosnowcard.jpg" alt="card" className="lg:h-32 lg:w-48 sm:h-64 sm:w-96"/></div>  
   </div>
 
-  <div className="flex mt-2 ml-4 flex-col lg:flex-row ">
-    <div className="mr-2"><img src="images/hoicimage.jpg" alt="card" className="h-32 w-48"/> </div>
-    <div className="mr-2"><img src="images/Docubayimage.jpg" alt="card" className="h-32 w-48"/> </div>
-    <div> <img src="images/ShortsTVimage.jpg" alt="card" className="h-32 w-48"/></div>  
+  <div className="flex mt-2 ml-4 flex-col lg:flex-row sm:items-center ">
+    <div className="mr-2 lg:mt-2  "><img src="images/hoicimage.jpg" alt="card" className="lg:h-32 lg:w-48 sm:h-64 sm:w-96"/> </div>
+    <div className="mr-2  sm:mt-2"><img src="images/Docubayimage.jpg" alt="card" className="lg:h-32 lg:w-48 sm:h-64 sm:w-96"/> </div>
+    <div className=" sm:mt-2 sm:mr-2"> <img src="images/ShortsTVimage.jpg" alt="card" className="lg:h-32 lg:w-48 sm:h-64 sm:w-96"/></div>  
   </div>
  
-  <div className="flex mt-2 ml-4 flex-col lg:flex-row ">
-    <div className="mr-2"><img src="images/Mubiimage.jpg" alt="card" className="h-32 w-48"/> </div>
-    <div className="mr-2"><img src="images/MANORAMAMAX.jpg" alt="card" className="h-32 w-48"/> </div>
+  <div className="flex mt-2 ml-4 flex-col lg:flex-row sm:items-center">
+    <div className="mr-2 lg:mt-2 "><img src="images/Mubiimage.jpg" alt="card" className="lg:h-32 lg:w-48 sm:h-64 sm:w-96"/> </div>
+    <div className="mr-2  sm:mt-2"><img src="images/MANORAMAMAX.jpg" alt="card" className="lg:h-32 lg:w-48 sm:h-64 sm:w-96"/> </div>
   </div>
 </div>
 </div>
@@ -85,20 +85,20 @@ export const Homepage = () => {
 
 </div>
 
-<div className="flex justify-around mt-20 flex-col lg:flex-row  ">
-  <div className="ml-5 ">
-    <img src="images/watchanywhereimage.png" alt="watch" className="ml-10 "/>
+<div className="flex justify-around mt-20 flex-col lg:flex-row sm:items-center ">
+  <div className="ml-5">
+    <img src="images/watchanywhereimage.png" alt="watch" className="ml-10 sm:ml-16"/>
     <div className="mt-5">  <h1 className="text-4xl text-center">Watch anywhere</h1> </div>
     <div className="mt-5"><p className="text-2xl text-center font-light tracking-tight">Enjoy from the web or with the Prime <br/>Video app on your phone, tablet, or <br/> select Smart TVs — on up to 3 devices at once.</p></div>
   </div>
 
-  <div className="ml-5">
+  <div className="ml-5 sm:mt-5">
     <img src="images/goimage.jpg" alt="watch" className="ml-10"/>
     <div className="mt-5">  <h1 className="text-4xl text-center">Download and go</h1> </div>
     <div className="mt-5"><p className="text-2xl text-center font-light">Watch offline on the Prime Video app <br/> when you download titles to your <br/> iPhone, iPad, Tablet, or Android device.</p></div>
   </div>
 
-  <div className="ml-5">
+  <div className="ml-5 sm:mt-5">
     <img src="images/datasaver.png" alt="watch" className="ml-10"/>
     <div className="mt-5">  <h1 className="text-4xl text-center">Data saver</h1> </div>
     <div className="mt-5 "><p className="text-2xl text-center font-light ">Control data usage while downloading <br/> and watching videos on select phones <br/> or tablets..</p></div>
